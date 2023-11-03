@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #539dfe;
+        }
+        #birthday-card {
+            margin: 10% auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+        #birthday-message {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        #gift-button {
+            background-color: #FF4081;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="birthday-card">
+        <h1>Happy Birthday, My Love <br>(Karriieeshi ❤️)!</h1>
+        <p id="birthday-message">Click the button below for your surprise gift!</p>
+        <button id="gift-button" onclick="revealGift()">Open Your Gift</button>
+        <div id="gift-content" style="display: none;">
+            <p>I've planned a day full of surprises and delights, just for you, because you deserve nothing but the best. So get ready for a day of unforgettable memories and endless love.
+            But for now, let's start your birthday with a sweet morning kiss and some delicious breakfast in bed. Today is all about you, and I can't wait to celebrate with you, my beautiful birthday girl. <br> Happy Birthday, my Karriieeshi! 🎂🎉❤️</p>
+            <br>
+            <img src="gf.jpg" style ="height: 50%; width:80%;  display: block;
+  margin-left: auto;
+  margin-right: auto;">
+
+
+            <p>Get ready for an amazing day filled with love and joy!</p>
+        </div>
+    </div>
+    <script>
+        function revealGift() {
+            const giftContent = document.getElementById('gift-content');
+            giftContent.style.display = 'block';
+
+            // You can add more interactive elements or effects here.
+        }
+    </script>
+</body>
+</html>
